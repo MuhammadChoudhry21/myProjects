@@ -1,0 +1,93 @@
+#wrapper {
+    text-align: center;
+    position: fixed;
+    width: 600px;   
+    margin-left: 34%;
+    margin-top: 100px;
+}
+
+#WelcomeText {
+    text-align: center;
+    margin-top: 25px;
+    font-family: Monaco;
+    transition: transform .2s;
+
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+#WelcomeText:hover {
+    color: blueviolet;
+    transform: scale(1.1);
+
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    vertical-align: middle;
+    /* border-color: #69afff;
+    border-width: 2px;
+    border-style: solid; */
+    width: 500px;
+}
+
+#CounterText {
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 100px;
+    font-family: Monaco;
+    text-shadow: 0px 0px 5px black;
+}
+
+#DecreaseBtn {
+    font-size: 20px;
+    margin-right: 5px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    transition: transform .2s;
+}
+
+#DecreaseBtn:hover {
+    transform: scale(1.1);
+}
+
+#IncreaseBtn {
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: #69afff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    transition: transform .2s;
+}
+
+#IncreaseBtn:hover {
+    transform: scale(1.1);
+}
+
+#ResetBtn {
+    font-size: 20px;
+    text-align: center;
+    background-color: #888888;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    transition: transform .2s;
+}
+
+#ResetBtn:hover {
+    transform: scale(1.1);
+}
+
+#btns {
+    text-align: center;
+    margin-bottom: 5px;
+}
+

@@ -1,0 +1,12 @@
+.inline-header {
+    color:blueviolet;
+    background: green;
+    font-size: 40px;
+
+}
+
+.outline-header {
+    color: blue;
+    background: yellow;
+    font-size: 40px;
+}
