@@ -1,0 +1,92 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Roboto;
+}
+
+/* body {
+  background-color: rgb(38, 38, 38);
+} */
+
+.createEmployee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+input {
+  width: 275px;
+  height: 30px;
+  font-size: 17px;
+  padding-left: 11px;
+  margin: 7px;
+}
+
+button {
+  width: 292px;
+  height: 30px;
+  margin-top: 13px;
+  background: blueviolet;
+  outline: none;
+  padding: 0;
+  border-radius: 5px;
+  border: none;
+  color: skyblue;
+  opacity: 0.9;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.Header {
+  color: aqua;
+  font-size: 50px;
+}
+
+.createEmployee label {
+  color: white;
+  font-style: it;
+}
+
+::placeholder {
+  opacity: 0.5;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.employee {
+  width: 650px;
+  height: auto;
+  border: 1px solid black; 
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.employee h3 {
+  margin: 19px;
+}
+
+.employees {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputArea {
+  margin-left: 40px;
+  margin-top: 70px;
+  margin-right: 50px;
+}
+
+.inputArea input {
+ position: relative;
+ left: -7px; 
+}
+
